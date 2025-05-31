@@ -9,7 +9,7 @@ public class Produccion {
     private String Lote;
     private String Cantidadproducida;
 
-    public Produccion() {
+    public Produccion(int idProduccion, String s, String string, String number, String id) {
     }
 
     public Produccion(int idProduccion, Date fechaproduccion, Date fechavencimiento, String lote, String cantidadproducida) {
